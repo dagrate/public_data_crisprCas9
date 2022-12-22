@@ -8,7 +8,7 @@ Summary of the most popular CRISPR/Cas9 benchmark data sets and databases used f
 
 Source | Year | Data description | Target | Data Link |
 |:---:|:---:|:---:|:---:|:---:|
-|Wang et al. data [1] | 2014 | A library containing 73, 000 sgRNAs | **to be completed**|**to be completed**|
+|Wang et al. data [1] | 2014 | A library containing 73, 000 sgRNAs | Off-targets and On-targets |**to be completed**|
 |**to be completed**|**to be completed**|**to be completed**|**to be completed**|**to be completed**|
 
 
