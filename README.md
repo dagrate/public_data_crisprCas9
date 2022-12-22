@@ -6,9 +6,9 @@ Summary of the most popular CRISPR/Cas9 benchmark data sets and databases used f
 
 ## Data Set Description
 
-Source | Year | Data description | Target | Data Link |
-|:---:|:---:|:---:|:---:|:---:|
-|Wang et al. data [1] | 2014 | A library containing 73, 000 sgRNAs | Off-targets and On-targets | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972032/#SD2 <br> or <br> https://github.com/dagrate/public_data_crisprCas9/tree/main/data/wang2014genetic |
+Source | Year | Data description | Target | Curated Data | Data Link |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|Wang et al. data [1] | 2014 | A library containing 73, 000 sgRNAs | Off-targets and On-targets | Yes | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972032/#SD2 <br> or <br> https://github.com/dagrate/public_data_crisprCas9/tree/main/data/wang2014genetic |
 |**to be completed**|**to be completed**|**to be completed**|**to be completed**|**to be completed**|
 
 
