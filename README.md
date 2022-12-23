@@ -11,7 +11,7 @@ Source | Year | Data description | Target | Original data source & Curated Data 
 |Wang et al. data [1] | 2014 | A library containing 73, 000 sgRNAs | Off-targets and On-targets | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972032/#SD2 <br> Direct Download Link: <br> https://github.com/dagrate/public_data_crisprCas9/tree/main/data/wang2014genetic |
 | Koike-Yusa et al. data [2] | 2014 | 87,897 gRNAs targeting 19,150 mouse protein-coding genes | Off-targets and On-targets | https://www.ebi.ac.uk/ena/browser/view/PRJEB4038 <br> Direct Download Link: <br> https://www.ebi.ac.uk/ena/browser/view/PRJEB4038 | 
 | Doench V1 data [3] | 2014 | 1,831 guides targeting three human (CD13, CD15, and CD33) and six mouse genes (Cd5, Cd28, H2-K, Cd45, Thy1, and Cd43) | Off-targets and On-targets | https://portals.broadinstitute.org/gppx/crispick/public |
-| GUIDE-seq data [4] | 2015 | CRISPR RNA-guided nucleases (RGNs) from two human cell lines: U2OS and HEK293; different sites such as VEGFA sites 1, 2 and 3, and HEK293 sites 2, 3 and 4 were studied | Off-targets | https://github.com/tsailabSJ/guideseq#pipeline_output |
+| GUIDE-seq data [4] | 2015 | CRISPR RNA-guided nucleases (RGNs) from two human cell lines: U2OS and HEK293; different sites such as VEGFA sites 1, 2 and 3, and HEK293 sites 2, 3 and 4 were studied | Off-targets | https://github.com/tsailabSJ/guideseq/tree/master |
 |**to be completed**|**to be completed**|**to be completed**|**to be completed**|**to be completed**|
 
 
