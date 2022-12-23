@@ -73,6 +73,17 @@ to be completed
   publisher={Nature Publishing Group}
 }
 
+@article{doench2016optimized,
+  title={Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9},
+  author={Doench, John G and Fusi, Nicolo and Sullender, Meagan and Hegde, Mudra and Vaimberg, Emma W and Donovan, Katherine F and Smith, Ian and Tothova, Zuzana and Wilen, Craig and Orchard, Robert and others},
+  journal={Nature biotechnology},
+  volume={34},
+  number={2},
+  pages={184--191},
+  year={2016},
+  publisher={Nature Publishing Group}
+}
+
 ```
 
 
