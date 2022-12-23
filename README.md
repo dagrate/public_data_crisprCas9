@@ -9,23 +9,14 @@ Summary of the most popular CRISPR/Cas9 benchmark data sets and databases used f
 Source | Year | Data description | Target | Original data source & Curated Data |
 |:---:|:---:|:---:|:---:|:---:|
 |Wang et al. data [1] | 2014 | A library containing 73, 000 sgRNAs | Off-targets and On-targets | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972032/#SD2 <br> Direct Download Link: <br> https://github.com/dagrate/public_data_crisprCas9/tree/main/data/wang2014genetic |
-
 | Koike-Yusa et al. data [2] | 2014 | 87,897 gRNAs targeting 19,150 mouse protein-coding genes | Off-targets and On-targets | https://www.ebi.ac.uk/ena/browser/view/PRJEB4038 <br> Direct Download Link: <br> https://www.ebi.ac.uk/ena/browser/view/PRJEB4038 | 
-
 | Doench V1 data [3] | 2014 | 1,831 guides targeting three human (CD13, CD15, and CD33) and six mouse genes (Cd5, Cd28, H2-K, Cd45, Thy1, and Cd43) | Off-targets and On-targets | https://portals.broadinstitute.org/gppx/crispick/public |
-
 | GUIDE-seq data [4] | 2015 | CRISPR RNA-guided nucleases (RGNs) from two human cell lines: U2OS and HEK293; different sites such as VEGFA sites 1, 2 and 3, and HEK293 sites 2, 3 and 4 were studied | Off-targets | https://github.com/tsailabSJ/guideseq/tree/master |
-
 | Doench V2 data [5] | 2016 | 2,549 unique guides targeting eight genes (CCDC101, MED12, TADA2B, TADA1, HPRT, CUL3, NF1, and NF2) from human A375 cells | Off-targets and On-targets | https://www.nature.com/articles/nbt.3437 <br> Direct Download Link <br> https://www.nature.com/articles/nbt.3437#Sec24 |
-
 |CRISPOR Database [6] | 2016 | Aggregate data for more than 50 genomes | Off-targets and On-targets | http://crispor.tefor.net/ <br> Direct Data Download Link: <br> https://github.com/MichaelLinn/off_target_prediction/blob/master/data/crispor_encoded_data.pkl.zip |
-
 | GenomeCRISPR database [7] | 2016 | Aggregate data for more than 550,000 sgRNAs derived from 84 experiments | On-targets  | http://genomecrispr.org |
-
 | CIRCLE-Seq data [8] | 2017 | Contains mismatch, insertion, and deletion information, and includes sgRNA-DNA pairs from 10 guide sequences, 7,371 of which are off-targets (430 with bulges) | Off-targets | https://github.com/tsailabSJ/circleseq |
-
 |SITE-Seq [9] | 2017 | gRNA-DNA pairs from nine guide sequences, 3,767 of which are active off-targets (no bulges) | Off-targets | https://www.nature.com/articles/nmeth.4284 <br> Direct Data Download Link <br> https://github.com/dagrate/public_data_crisprCas9/tree/main/data/site_seq |
-
 |**to be completed**|**to be completed**|**to be completed**|**to be completed**|**to be completed**|
 
 
