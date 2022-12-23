@@ -12,7 +12,7 @@ Source | Year | Data description | Target | Original data source & Curated Data 
 | Koike-Yusa et al. data [2] | 2014 | 87,897 gRNAs targeting 19,150 mouse protein-coding genes | Off-targets and On-targets | https://www.ebi.ac.uk/ena/browser/view/PRJEB4038 <br> Direct Download Link: <br> https://www.ebi.ac.uk/ena/browser/view/PRJEB4038 | 
 | Doench V1 data [3] | 2014 | 1,831 guides targeting three human (CD13, CD15, and CD33) and six mouse genes (Cd5, Cd28, H2-K, Cd45, Thy1, and Cd43) | Off-targets and On-targets | https://portals.broadinstitute.org/gppx/crispick/public |
 | GUIDE-seq data [4] | 2015 | CRISPR RNA-guided nucleases (RGNs) from two human cell lines: U2OS and HEK293; different sites such as VEGFA sites 1, 2 and 3, and HEK293 sites 2, 3 and 4 were studied | Off-targets | https://github.com/tsailabSJ/guideseq/tree/master |
-| Doench V2 data [5] | 2016 | 2,549 unique guides targeting eight genes (CCDC101, MED12, TADA2B, TADA1, HPRT, CUL3, NF1, and NF2) from human A375 cells | Off-targets and On-targets | https://www.nature.com/articles/nbt.3437#Sec24 |
+| Doench V2 data [5] | 2016 | 2,549 unique guides targeting eight genes (CCDC101, MED12, TADA2B, TADA1, HPRT, CUL3, NF1, and NF2) from human A375 cells | Off-targets and On-targets | https://www.nature.com/articles/nbt.3437 <br> Direct Download Link <br> https://www.nature.com/articles/nbt.3437#Sec24 |
 |**to be completed**|**to be completed**|**to be completed**|**to be completed**|**to be completed**|
 
 
