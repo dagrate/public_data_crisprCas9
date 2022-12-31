@@ -21,7 +21,8 @@ Source | Year | Data description | Target | Original data source & Curated Data 
 | DeepHf data [11] | 2019 | Includes indel rates of over 50,000 gRNAs for each nuclease, covering about 20,000 genes. It is the largest gRNA on-target activity set reported for mammalian cells | On-targets | Original Data Source: <br> http://www.DeepHF.com <br> https://github.com/izhangcd/DeepHF <br><br> Direct Link for Data Download: <br> https://github.com/dagrate/public_data_crisprCas9/tree/main/data/deepHF |
 | CHANGE-seq data [12] | 2020 | 110 sgRNA targets across 13 therapeutically relevant loci in human primary T-cells were studied to identify 201,934 off-target sites across the human genome | Off-targets and On-targets | Original Data Source: <br> https://github.com/tsailabSJ/changeseq |
 | CRISPRon data [13] | 2021 | A pool of 12,000 gRNA oligos, targeting 3,834 human protein-coding genes | On-targets | Original Data Source: <br> https://rth.dk/resources/crispr/ |
-| Listgarten elevation hmg data [14] | 2018 | 10129 human exome targets pre-computed | Off-targets and On-targets | Original Data Source: <br> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6037314/ <br><br> Direct Link for Data Download: <br> https://github.com/dagrate/public_data_crisprCas9/tree/main/data/listgarten_elevation_hmg |
+| Listgarten elevation hmg data [14] | 2018 | 10,129 human exome targets pre-computed | Off-targets | Original Data Source: <br> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6037314/ <br><br> Direct Link for Data Download: <br> https://github.com/dagrate/public_data_crisprCas9/tree/main/data/listgarten_elevation_hmg |
+| Kleinstiver 5gRNA data [15] | 2015 | GUIDE-Seq pre-computed | Off-targets | Original Data Source: <br> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540238/pdf/nihms696684.pdf <br><br> Direct Link for Data Download: <br> https://github.com/dagrate/public_data_crisprCas9/tree/main/data/kleinstiver2015 |
 
 
 
@@ -202,5 +203,18 @@ to be completed soon
   year={2018},
   publisher={Nature Publishing Group}
 }
+
+[15]:
+@article{kleinstiver2015engineered,
+  title={Engineered CRISPR-Cas9 nucleases with altered PAM specificities},
+  author={Kleinstiver, Benjamin P and Prew, Michelle S and Tsai, Shengdar Q and Topkar, Ved V and Nguyen, Nhu T and Zheng, Zongli and Gonzales, Andrew PW and Li, Zhuyun and Peterson, Randall T and Yeh, Jing-Ruey Joanna and others},
+  journal={Nature},
+  volume={523},
+  number={7561},
+  pages={481--485},
+  year={2015},
+  publisher={Nature Publishing Group}
+}
+
 
 ```
