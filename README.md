@@ -37,6 +37,52 @@ to be completed soon
 
 ## References 
 
+[1]:
+Wang, T., Wei, J.J., Sabatini, D.M. and Lander, E.S., 2014. Genetic screens in human cells using the CRISPR-Cas9 system. Science, 343(6166), pp.80-84.
+
+[2]:
+Koike-Yusa, H., Li, Y., Tan, E.P., Velasco-Herrera, M.D.C. and Yusa, K., 2014. Genome-wide recessive genetic screening in mammalian cells with a lentiviral CRISPR-guide RNA library. Nature biotechnology, 32(3), pp.267-273.
+
+[3]:
+Doench, J.G., Hartenian, E., Graham, D.B., Tothova, Z., Hegde, M., Smith, I., Sullender, M., Ebert, B.L., Xavier, R.J. and Root, D.E., 2014. Rational design of highly active sgRNAs for CRISPR-Cas9–mediated gene inactivation. Nature biotechnology, 32(12), pp.1262-1267.
+
+[4]:
+Tsai, S.Q., Zheng, Z., Nguyen, N.T., Liebers, M., Topkar, V.V., Thapar, V., Wyvekens, N., Khayter, C., Iafrate, A.J., Le, L.P. and Aryee, M.J., 2015. GUIDE-seq enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases. Nature biotechnology, 33(2), pp.187-197.
+
+[5]:
+Doench, J.G., Fusi, N., Sullender, M., Hegde, M., Vaimberg, E.W., Donovan, K.F., Smith, I., Tothova, Z., Wilen, C., Orchard, R. and Virgin, H.W., 2016. Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9. Nature biotechnology, 34(2), pp.184-191.
+
+[6]:
+Haeussler, M., Schönig, K., Eckert, H., Eschstruth, A., Mianné, J., Renaud, J.B., Schneider-Maunoury, S., Shkumatava, A., Teboul, L., Kent, J. and Joly, J.S., 2016. Evaluation of off-target and on-target scoring algorithms and integration into the guide RNA selection tool CRISPOR. Genome biology, 17(1), pp.1-12.
+
+[7]:
+Rauscher, B., Heigwer, F., Breinig, M., Winter, J. and Boutros, M., 2016. GenomeCRISPR-a database for high-throughput CRISPR/Cas9 screens. Nucleic acids research, p.gkw997.
+
+[8]:
+Tsai, S.Q., Nguyen, N.T., Malagon-Lopez, J., Topkar, V.V., Aryee, M.J. and Joung, J.K., 2017. CIRCLE-seq: a highly sensitive in vitro screen for genome-wide CRISPR–Cas9 nuclease off-targets. Nature methods, 14(6), pp.607-614.
+
+[9]:
+Cameron, P., Fuller, C.K., Donohoue, P.D., Jones, B.N., Thompson, M.S., Carter, M.M., Gradia, S., Vidal, B., Garner, E., Slorach, E.M. and Lau, E., 2017. Mapping the genomic landscape of CRISPR–Cas9 cleavage. Nature methods, 14(6), pp.600-606.
+
+[10]:
+Chuai, G., Ma, H., Yan, J., Chen, M., Hong, N., Xue, D., Zhou, C., Zhu, C., Chen, K., Duan, B. and Gu, F., 2018. DeepCRISPR: optimized CRISPR guide RNA design by deep learning. Genome biology, 19(1), pp.1-18.
+
+[11]:
+Wang, D., Zhang, C., Wang, B., Li, B., Wang, Q., Liu, D., Wang, H., Zhou, Y., Shi, L., Lan, F. and Wang, Y., 2019. Optimized CRISPR guide RNA design for two high-fidelity Cas9 variants by deep learning. Nature communications, 10(1), pp.1-14.
+
+[12]:
+Lazzarotto, C.R., Malinin, N.L., Li, Y., Zhang, R., Yang, Y., Lee, G., Cowley, E., He, Y., Lan, X., Jividen, K. and Katta, V., 2020. CHANGE-seq reveals genetic and epigenetic effects on CRISPR–Cas9 genome-wide activity. Nature biotechnology, 38(11), pp.1317-1327.
+
+[13]:
+Xiang, X., Corsi, G.I., Anthon, C., Qu, K., Pan, X., Liang, X., Han, P., Dong, Z., Liu, L., Zhong, J. and Ma, T., 2021. Enhancing CRISPR-Cas9 gRNA efficiency prediction by data integration and deep learning. Nature communications, 12(1), pp.1-9.
+
+[14]:
+Listgarten, J., Weinstein, M., Kleinstiver, B.P., Sousa, A.A., Joung, J.K., Crawford, J., Gao, K., Hoang, L., Elibol, M., Doench, J.G. and Fusi, N., 2018. Prediction of off-target activities for the end-to-end design of CRISPR guide RNAs. Nature biomedical engineering, 2(1), pp.38-47.
+
+[15]:
+Kleinstiver, B.P., Prew, M.S., Tsai, S.Q., Topkar, V.V., Nguyen, N.T., Zheng, Z., Gonzales, A.P., Li, Z., Peterson, R.T., Yeh, J.R.J. and Aryee, M.J., 2015. Engineered CRISPR-Cas9 nucleases with altered PAM specificities. Nature, 523(7561), pp.481-485.
+
+
 ```bibtex
 [1]:
 @article{wang2014genetic,
