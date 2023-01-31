@@ -23,7 +23,7 @@ Source | Year | Data description | Target | Original data source & Curated Data 
 | CRISPRon data [13] | 2021 | A pool of 12,000 gRNA oligos, targeting 3,834 human protein-coding genes | On-targets | Original Data Source: <br> [Github Link](https://rth.dk/resources/crispr/)|
 | Listgarten elevation hmg data [14] | 2018 | 10,129 human exome targets pre-computed | Off-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6037314/) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/listgarten_elevation_hmg) |
 | Kleinstiver 5gRNA data [15] | 2015 | GUIDE-Seq pre-computed | Off-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540238/pdf/nihms696684.pdf) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/kleinstiver2015) |
-
+| DeepSpCas9 [16] | 2019 | SpCas9 activities at 12,832 integrated target sequences | Off-targets and On-targets ? | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6834390/) <br><br> Direct Link for Data Download: <br> [NBCI SRA](https://www.ncbi.nlm.nih.gov/sra/SRP150719)
 
 
 ------
@@ -82,3 +82,5 @@ Listgarten, J., Weinstein, M., Kleinstiver, B.P., Sousa, A.A., Joung, J.K., Craw
 [15]:
 Kleinstiver, B.P., Prew, M.S., Tsai, S.Q., Topkar, V.V., Nguyen, N.T., Zheng, Z., Gonzales, A.P., Li, Z., Peterson, R.T., Yeh, J.R.J. and Aryee, M.J., 2015. Engineered CRISPR-Cas9 nucleases with altered PAM specificities. Nature, 523(7561), pp.481-485.
 
+[16]:
+Kim, H. K., Kim, Y., Lee, S., Min, S., Bae, J. Y., Choi, J. W., ... & Kim, H. H. (2019). SpCas9 activity prediction by DeepSpCas9, a deep learning–based model with high generalization performance. Science advances, 5(11), eaax9249.
