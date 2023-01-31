@@ -4,6 +4,15 @@ CRISPR/Cas9 benchmark data sets used for on- and off-target prediction, availabl
 
 ------
 
+## Data Ready for Machine Learning and Deep Learning Experiences
+
+
+to be completed. <br><br>
+jeux de données description + encodage utilisé + ref lin et al. 2020 <br><br>
+
+
+------
+
 ## Data Set Description
 
 Source | Year | Data description | Target | Original data source & Curated Data |
