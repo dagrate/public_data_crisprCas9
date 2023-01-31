@@ -32,7 +32,7 @@ Source | Year | Data description | Target | Original data source & Curated Data 
 | CRISPRon data [13] | 2021 | A pool of 12,000 gRNA oligos, targeting 3,834 human protein-coding genes | On-targets | Original Data Source: <br> [Github Link](https://rth.dk/resources/crispr/)|
 | Listgarten elevation hmg data [14] | 2018 | 10,129 human exome targets pre-computed | Off-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6037314/) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/listgarten_elevation_hmg) |
 | Kleinstiver 5gRNA data [15] | 2015 | GUIDE-Seq pre-computed | Off-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540238/pdf/nihms696684.pdf) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/kleinstiver2015) |
-| DeepSpCas9 [16] | 2019 | SpCas9 activities at 12,832 integrated target sequences | Off-targets and On-targets ? | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6834390/) <br><br> Direct Link for Data Download: <br> [NBCI SRA](https://www.ncbi.nlm.nih.gov/sra/SRP150719)
+| DeepSpCas9 [16] | 2019 | SpCas9 activities at 12,832 integrated target sequences | On-targets ? | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6834390/) <br><br> Direct Link for Data Download: <br> [NBCI SRA](https://www.ncbi.nlm.nih.gov/sra/SRP150719)
 | SgDesigner [17] |  |  | On-targets | Original Data Source: <br> [Direct Link]() <br><br> Direct Link for Data Download: <br> [NBCI SRA]()
 
 
