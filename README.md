@@ -1,6 +1,13 @@
 # public_data_crisprCas9
 
 **work in progress**
+things that will be completed: <br>
+- add CRISPR data for machine learning experiments 
+- add guide-Seq data for machine learning experiments 
+- complete section data for ML/DL experiences
+- sgdesigner data set 
+-  
+
 
 CRISPR/Cas9 benchmark data sets used for on- and off-target prediction, available for download.
 
