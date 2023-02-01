@@ -1,12 +1,14 @@
 # public_data_crisprCas9
 
 **work in progress**
-things that will be completed: <br>
+steps that will be completed: <br>
 - add CRISPR data for machine learning experiments 
 - add guide-Seq data for machine learning experiments 
 - complete section data for ML/DL experiences
 - sgdesigner data set 
--  
+- update Koike et al. description
+- check on- off-target data sets marked with ?
+- update reference numbers in ascending order
 
 
 CRISPR/Cas9 benchmark data sets used for on- and off-target prediction, available for download.
@@ -57,12 +59,12 @@ Data sets containing both on- and off-targets activities.
 
 Source | Year | Data description | Target | Original data source & Curated Data |
 |:---:|:---:|:---:|:---:|:---:|
-| ? Wang et al. data [1] | 2014 | A library containing 73, 000 sgRNAs | Off-targets and On-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972032/#SD2) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/wang2014genetic) |
-| ? Koike-Yusa et al. data [2] | 2014 | 87,897 gRNAs targeting 19,150 mouse protein-coding genes | Off-targets and On-targets | Original Data Source: <br> [Direct Publication Link](https://www.ebi.ac.uk/ena/browser/view/PRJEB4038) <br><br> Direct Link for Data Download: <br> [Direct Link](https://www.ebi.ac.uk/ena/browser/view/PRJEB4038) | 
-| ? Doench V1 data [3] | 2014 | 1,831 guides targeting three human (CD13, CD15, and CD33) and six mouse genes (Cd5, Cd28, H2-K, Cd45, Thy1, and Cd43) | Off-targets and On-targets | Original Data Source: <br> [Direct Link](https://portals.broadinstitute.org/gppx/crispick/public) |
-| ? Doench V2 data [5] | 2016 | 2,549 unique guides targeting eight genes (CCDC101, MED12, TADA2B, TADA1, HPRT, CUL3, NF1, and NF2) from human A375 cells | Off-targets and On-targets | Original Data Source: <br> [Direct Publication Link](https://www.nature.com/articles/nbt.3437) <br><br> Direct Link for Data Download: <br> [Direct Link](https://www.nature.com/articles/nbt.3437#Sec24) |
-| ? CRISPOR Database [6] | 2016 | Aggregate data for more than 50 genomes | Off-targets and On-targets | Original Data Source: <br> [Direct Link](http://crispor.tefor.net/) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/MichaelLinn/off_target_prediction/blob/master/data/crispor_encoded_data.pkl.zip) |
-| DeepCRISPR platform [10] | 2018 | Includes approximately 0.68 billion sgRNA sequences derived from 13 human cell lines | Off-targets and On-targets | Original Data Source: <br> [Direct Link](https://github.com/bm2-lab/DeepCRISPR) <br><br> Direct Link for Data Download (samples): <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/deepcrispr) |
+| Wang et al. data [1] | 2014 | A library containing 73, 000 sgRNAs | Off-targets and On-targets ? | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972032/#SD2) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/wang2014genetic) |
+| Koike-Yusa et al. data [2] | 2014 | 87,897 gRNAs targeting 19,150 mouse protein-coding genes | Off-targets and On-targets ? | Original Data Source: <br> [Direct Publication Link](https://www.ebi.ac.uk/ena/browser/view/PRJEB4038) <br><br> Direct Link for Data Download: <br> [Direct Link](https://www.ebi.ac.uk/ena/browser/view/PRJEB4038) | 
+| Doench V1 data [3] | 2014 | 1,831 guides targeting three human (CD13, CD15, and CD33) and six mouse genes (Cd5, Cd28, H2-K, Cd45, Thy1, and Cd43) | Off-targets and On-targets ? | Original Data Source: <br> [Direct Link](https://portals.broadinstitute.org/gppx/crispick/public) |
+| Doench V2 data [5] | 2016 | 2,549 unique guides targeting eight genes (CCDC101, MED12, TADA2B, TADA1, HPRT, CUL3, NF1, and NF2) from human A375 cells | Off-targets and On-targets ? | Original Data Source: <br> [Direct Publication Link](https://www.nature.com/articles/nbt.3437) <br><br> Direct Link for Data Download: <br> [Direct Link](https://www.nature.com/articles/nbt.3437#Sec24) |
+| CRISPOR Database [6] | 2016 | Aggregate data for more than 50 genomes | Off-targets and On-targets ? | Original Data Source: <br> [Direct Link](http://crispor.tefor.net/) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/MichaelLinn/off_target_prediction/blob/master/data/crispor_encoded_data.pkl.zip) |
+| DeepCRISPR platform [10] | 2018 | Includes approximately 0.68 billion sgRNA sequences derived from 13 human cell lines | Off-targets and On-targets ? | Original Data Source: <br> [Direct Link](https://github.com/bm2-lab/DeepCRISPR) <br><br> Direct Link for Data Download (samples): <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/deepcrispr) |
 
 
 ------
