@@ -17,9 +17,18 @@ CRISPR/Cas9 benchmark data sets used for on- and off-target prediction, availabl
 
 ## Data Ready for Machine Learning and Deep Learning Experiences
 
+In this section, we provide data sets ready for ML and deep learning experiments without the need of data preprocessing. 
 
-to be completed. <br><br>
-jeux de données description + encodage utilisé + ref lin et al. 2020 <br><br>
+Source | Year | Data Name | Encoded Matrix Size | Data Link 
+|:---:|:---:|:---:|:---:|:---:|
+Lin et al. [17] | 2020 | DataSet 1 | 7x23 | [Direct Link](http://bio.info.uqam.ca/data/test.pdf)
+Charlier et al. [18] | 2020 | DataSet 2 | 8x23 | [Direct Link](http://bio.info.uqam.ca/data/test.pdf)
+
+
+DataSet 1 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing 7 different data sets, presented in Table 1 of Lin et al. 2020. A brief description of the bunch data set is available at https://github.com/dagrate/transferlearning-bioinfo. 
+DataSet 1 is encoded using the methodology presented in Lin et al 2020.  <br>
+
+DataSet 2 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) used in Charlier et al 2020. The encoding methodology follows the methodology introduced in Charlier et al. <br>
 
 
 ------
@@ -127,4 +136,7 @@ Kleinstiver, B.P., Prew, M.S., Tsai, S.Q., Topkar, V.V., Nguyen, N.T., Zheng, Z.
 Kim, H. K., Kim, Y., Lee, S., Min, S., Bae, J. Y., Choi, J. W., ... & Kim, H. H. (2019). SpCas9 activity prediction by DeepSpCas9, a deep learning–based model with high generalization performance. Science advances, 5(11), eaax9249.
 
 [17]:
+Lin, J., Zhang, Z., Zhang, S., Chen, J. and Wong, K.C., 2020. CRISPR‐Net: A Recurrent Convolutional Network Quantifies CRISPR Off‐Target Activities with Mismatches and Indels. Advanced science, 7(13), p.1903562.
 
+[18]:
+Charlier J, Nadon R, Makarenkov V. Accurate deep learning off-target prediction with novel sgRNA-DNA sequence encoding in CRISPR-Cas9 gene editing. Bioinformatics. 2021 Aug 15;37(16):2299-307.
