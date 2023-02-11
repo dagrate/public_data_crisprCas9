@@ -2,7 +2,6 @@
 
 **work in progress**
 steps that will be completed: <br>
-- check on- off-target data sets marked with ?
 - check the CRISPON publication
 - update reference numbers in ascending order
 - give read access to the data folder on the server 
