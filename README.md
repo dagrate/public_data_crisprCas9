@@ -2,7 +2,6 @@
 
 **work in progress**
 steps that will be completed: <br>
-- sgdesigner data set 
 - update Koike et al. description
 - check on- off-target data sets marked with ?
 - update reference numbers in ascending order
@@ -56,7 +55,7 @@ Source | Year | Data description | Target | Original data source & Curated Data 
 | DeepHf data [11] | 2019 | Includes indel rates of over 50,000 gRNAs for each nuclease, covering about 20,000 genes. It is the largest gRNA on-target activity set reported for mammalian cells | On-targets | Original Data Source: <br> http://www.DeepHF.com <br> [Direct Link](https://github.com/izhangcd/DeepHF) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/deepHF) |
 | CRISPRon data [13] | 2021 | A pool of 12,000 gRNA oligos, targeting 3,834 human protein-coding genes | On-targets | Original Data Source: <br> [Github Link](https://rth.dk/resources/crispr/)|
 | DeepSpCas9 [16] | 2019 | SpCas9 activities at 12,832 integrated target sequences | On-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6834390/) <br><br> Direct Link for Data Download: <br> [NBCI SRA](https://www.ncbi.nlm.nih.gov/sra/SRP150719)
-| SgDesigner [17] | 2020 | A unique plasmid library expressed in human cells used to quantify the potency of thousands of CRISPR/Cas9 sgRNAs (a pool of 12,472 oligonucleotides was studied) | On-targets | Original Data Source: <br> [Direct Link](https://academic.oup.com/bioinformatics/article/36/9/2684/5714741#supplementary-data) <br><br> Link for the sgDesigner Model [GitHub sgDesigner](https://github.com/wang-lab/sgDesigner) <br><br>  Direct Link for Data Download: <br><br> [GitHub Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/sgDesigner)
+| SgDesigner [17] | 2020 | A unique plasmid library expressed in human cells used to quantify the potency of thousands of CRISPR/Cas9 sgRNAs (a pool of 12,472 oligonucleotides was studied) | On-targets | Original Data Source: <br> [Direct Link](https://academic.oup.com/bioinformatics/article/36/9/2684/5714741#supplementary-data) <br><br> Link for the sgDesigner Model [GitHub sgDesigner](https://github.com/wang-lab/sgDesigner) <br><br>  Direct Link for Data Download: [GitHub Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/sgDesigner)
 
 
 ### On- & Off-Targets Data Sets Description
