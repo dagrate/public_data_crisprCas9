@@ -2,9 +2,10 @@
 
 **work in progress**
 steps that will be completed: <br>
-- update Koike et al. description
 - check on- off-target data sets marked with ?
+- check the CRISPON publication
 - update reference numbers in ascending order
+- give read access to the data folder on the server 
 
 
 CRISPR/Cas9 benchmark data sets used for on- and off-target prediction, available for download.
