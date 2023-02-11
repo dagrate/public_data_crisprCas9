@@ -52,7 +52,7 @@ Data sets containing only on-targets activities.
 
 Source | Year | Data description | Target | Original data source & Curated Data |
 |:---:|:---:|:---:|:---:|:---:|
-| Wang et al. data [1] | 2014 | A library containing 73, 000 sgRNAs | Off-targets and On-targets ? | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972032/#SD2) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/wang2014genetic) |
+| Wang et al. data [1] | 2014 | A library containing 73, 000 sgRNAs | On-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972032/#SD2) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/wang2014genetic) |
 | GenomeCRISPR database [7] | 2016 | Aggregate data for more than 550,000 sgRNAs derived from 84 experiments | On-targets  | Original Data Source: <br> [Direct Link](http://genomecrispr.org) |
 | DeepHf data [11] | 2019 | Includes indel rates of over 50,000 gRNAs for each nuclease, covering about 20,000 genes. It is the largest gRNA on-target activity set reported for mammalian cells | On-targets | Original Data Source: <br> http://www.DeepHF.com <br> [Direct Link](https://github.com/izhangcd/DeepHF) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/deepHF) |
 | CRISPRon data [13] | 2021 | A pool of 12,000 gRNA oligos, targeting 3,834 human protein-coding genes | On-targets | Original Data Source: <br> [Github Link](https://rth.dk/resources/crispr/)|
