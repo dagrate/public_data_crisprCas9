@@ -11,7 +11,7 @@ In this section, we provide data sets ready to use for machine learning and deep
 | Data Designation | Original Data Sets | Encoded Matrix Size | Data Link 
 |:---:|:---:|:---:|:---:|
 | Data Set 1 | CIRCLE-Seq by Tasi et al. [30], <br> GUIDE-Seq I by Listgarten et al. [31], <br> Protein knockout detection by Doench et al. [32], <br> PCR, Digenome-Seq and HTGTS by Haeussler et al. [33], <br> SITE-Seq by Cameron et al. [34],<br> GUIDE-Seq by Tasi et al. [35],<br> GUIDE-Seq by Kleinstiver et al. [36],<br> GUIDE-Seq II by Listgarten et al. [37] | 7x23 <br> (Lin et al. 2020 [17]) | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_for_experiments.pkl)
-| Data Set 2 | CRISPR-Cas9 by Lin and Wong 2018 [40] & GUIDE-Seq by Tsai et al. 2015 [41] | 8x23 <br> (Charlier et al. 2021 [18]) | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_charlier_et_al.pkl)
+| Data Set 2 | CRISPR-Cas9 by Lin and Wong 2018 [40], <br> GUIDE-Seq by Tsai et al. 2015 [41] | 8x23 <br> (Charlier et al. 2021 [18]) | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_charlier_et_al.pkl)
 
 
 DataSet 1 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing 7 different data sets, presented in Table 1 of Lin et al. [17]. A brief description of the bunch data set is available on [this GitHub page](https://github.com/dagrate/transferlearning-bioinfo). 
