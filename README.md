@@ -20,9 +20,9 @@ Data Set 1 is encoded using the one-hot encoding technique introduced by Lin et 
 Data Set 2 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing both CRISPR and Guide-Seq data sets used in Charlier et al. [18].
 Data Set 2 is encoded using the one-hot encoding technique introduced by Charlier et al. [18].  <br>
 
-´´´ python
+```python
 import pickle as pkl
-´´´
+```
 
 ------
 
