@@ -10,7 +10,7 @@ In this section, we provide data sets ready to use for machine learning and deep
 
 | Data Designation | Original Data Sets | Encoded Matrix Size | Data Link 
 |:---:|:---:|:---:|:---:|
-| DataSet 1 | CIRCLE-Seq by Tasi et al [30], GUIDE-Seq by Listgarten [], Protein knockout detection by Doench et al.[11], PCR, Digenome-Seq and HTGTS by Haeussler et al. [], SITE-Seq by Cameron et al.[18], GUIDE-Seq by Tasi et al.[16], GUIDE-Seq by Kleinstiver et al.[44], GUIDE-Seq by Listgarten et al.[13] | 7x23 (Lin et al. 2020 [17]) | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_for_experiments.pkl)
+| DataSet 1 | CIRCLE-Seq by Tasi et al [30], GUIDE-Seq by Listgarten [31], Protein knockout detection by Doench et al.[11], PCR, Digenome-Seq and HTGTS by Haeussler et al. [], SITE-Seq by Cameron et al.[18], GUIDE-Seq by Tasi et al.[16], GUIDE-Seq by Kleinstiver et al.[44], GUIDE-Seq by Listgarten et al.[13] | 7x23 (Lin et al. 2020 [17]) | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_for_experiments.pkl)
 | DataSet 2 | CRISPR-Cas9 & GUIDE-Seq | 8x23 (Charlier et al. 2021 [18]) | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_charlier_et_al.pkl)
 
 
@@ -132,3 +132,6 @@ Charlier J, Nadon R, Makarenkov V. Accurate deep learning off-target prediction 
 
 [30]:
 Tsai, S.Q., Nguyen, N.T., Malagon-Lopez, J., Topkar, V.V., Aryee, M.J. and Joung, J.K., 2017. CIRCLE-seq: a highly sensitive in vitro screen for genome-wide CRISPR–Cas9 nuclease off-targets. Nature methods, 14(6), pp.607-614.
+
+[31]:
+Listgarten, J., Weinstein, M., Kleinstiver, B.P., Sousa, A.A., Joung, J.K., Crawford, J., Gao, K., Hoang, L., Elibol, M., Doench, J.G. and Fusi, N., 2018. Prediction of off-target activities for the end-to-end design of CRISPR guide RNAs. Nature biomedical engineering, 2(1), pp.38-47.
