@@ -71,13 +71,6 @@ Source | Year | Data description | Target | Original data source & Curated Data 
 
 ------
 
-## Citation
-
-to be completed soon
-
-
-------
-
 ## References 
 
 [1]:
