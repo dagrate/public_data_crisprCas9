@@ -14,11 +14,13 @@ In this section, we provide data sets ready to use for machine learning and deep
 | Data Set 2 | CRISPR-Cas9 by Lin and Wong 2018 [40], <br> GUIDE-Seq by Tsai et al. 2015 [41] | 8x23 <br> (Charlier et al. 2021 [18]) | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_charlier_et_al.pkl)
 
 
-DataSet 1 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing 7 different data sets, presented in Table 1 of Lin et al. [17]. A brief description of the bunch data set is available on [this GitHub page](https://github.com/dagrate/transferlearning-bioinfo). 
+Data Set 1 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing 7 different data sets, presented in Table 1 of Lin et al. [17]. A brief description of the bunch data set is available on [this GitHub page](https://github.com/dagrate/transferlearning-bioinfo). 
 DataSet 1 is encoded using the methodology presented in Lin et al [17].  <br>
 
-DataSet 2 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing both CRISPR and Guide-Seq data sets used in Charlier et al [18]. The encoding methodology follows the methodology introduced in Charlier et al. [18] <br>
+Data Set 2 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing both CRISPR and Guide-Seq data sets used in Charlier et al [18]. The encoding methodology follows the methodology introduced in Charlier et al. [18] <br>
 
+´´´ python
+´´´
 
 ------
 
