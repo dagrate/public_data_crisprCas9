@@ -1,11 +1,5 @@
 # public_data_crisprCas9
 
-**work in progress**
-steps that will be completed: <br>
-- update reference numbers in ascending order
-- give read access to the data folder on the server 
-
-
 CRISPR/Cas9 benchmark data sets used for on- and off-target prediction, available for download.
 
 ------
