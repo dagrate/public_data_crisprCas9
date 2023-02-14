@@ -15,9 +15,10 @@ In this section, we provide data sets ready to use for machine learning and deep
 
 
 Data Set 1 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing 7 different data sets, presented in Table 1 of Lin et al. [17]. A brief description of the bunch data set is available on [this GitHub page](https://github.com/dagrate/transferlearning-bioinfo). 
-Data Set 1 is encoded using the one-hot encoding methodology introduced by Lin et al [17].  <br>
+Data Set 1 is encoded using the one-hot encoding technique introduced by Lin et al. [17].  <br>
 
-Data Set 2 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing both CRISPR and Guide-Seq data sets used in Charlier et al [18]. The encoding methodology follows the methodology introduced in Charlier et al. [18] <br>
+Data Set 2 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing both CRISPR and Guide-Seq data sets used in Charlier et al. [18].
+Data Set 2 is encoded using the one-hot encoding technique introduced by Charlier et al. [18].  <br>
 
 ´´´ python
 ´´´
