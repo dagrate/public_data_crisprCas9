@@ -8,10 +8,10 @@ CRISPR/Cas9 benchmark data sets used for on- and off-target prediction, availabl
 
 In this section, we provide data sets ready to use for machine learning and deep learning experiments, without the need of data preprocessing. 
 
-Source | Year | Data Designation | Encoded Matrix Size | Data Link 
-|:---:|:---:|:---:|:---:|:---:|
-Lin et al. [17] | 2020 | DataSet 1 | 7x23 | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_for_experiments.pkl)
-Charlier et al. [18] | 2021 | DataSet 2 | 8x23 | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_charlier_et_al.pkl)
+Source | Year | Data Designation | Original Data Sets | Encoded Matrix Size | Data Link 
+|:---:|:---:|:---:|:---:|:---:|:---:|
+Lin et al. [17] | 2020 | DataSet 1 | CIRCLE-Seq by Tasi et al [], GUIDE-Seq by Listgarten [], | 7x23 | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_for_experiments.pkl)
+Charlier et al. [18] | 2021 | DataSet 2 | CRISPR-Cas9 & GUIDE-Seq | 8x23 | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_charlier_et_al.pkl)
 
 
 DataSet 1 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing 7 different data sets, presented in Table 1 of Lin et al. [17]. A brief description of the bunch data set is available on [this GitHub page](https://github.com/dagrate/transferlearning-bioinfo). 
