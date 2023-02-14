@@ -10,7 +10,7 @@ In this section, we provide data sets ready to use for machine learning and deep
 
 | Data Designation | Original Data Sets | Encoded Matrix Size | Data Link 
 |:---:|:---:|:---:|:---:|
-| DataSet 1 | CIRCLE-Seq by Tasi et al [], GUIDE-Seq by Listgarten [], | 7x23 (Lin et al. 2020 [17]) | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_for_experiments.pkl)
+| DataSet 1 | CIRCLE-Seq by Tasi et al [], GUIDE-Seq by Listgarten [], Protein knockout detection by Doench et al.[11], PCR, Digenome-Seq and HTGTS by Haeussler et al. [], SITE-Seq by Cameron et al.[18], GUIDE-Seq by Tasi et al.[16], GUIDE-Seq by Kleinstiver et al.[44], GUIDE-Seq by Listgarten et al.[13] | 7x23 (Lin et al. 2020 [17]) | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_for_experiments.pkl)
 | DataSet 2 | CRISPR-Cas9 & GUIDE-Seq | 8x23 (Charlier et al. 2021 [18]) | [Direct Link for Download](http://bio.info.uqam.ca/data/encoded_data_charlier_et_al.pkl)
 
 
