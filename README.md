@@ -23,7 +23,7 @@ Data Set 2 is encoded using the one-hot encoding technique introduced by Charlie
 ```python
 # how to read the encoded Bunch data files
 import pickle as pkl
-with open('data_set_i.pkl', 'rb') as f:
+with open('data_set_i.pkl', 'rb') as f: # change data_set_i by the name of your file
   data = pickle.load(f)
 print(data)
 ```
