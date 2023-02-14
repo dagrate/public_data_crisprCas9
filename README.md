@@ -74,7 +74,7 @@ Source | Year | Data description | Target | Original data source & Curated Data 
 
 ## Citation
 
-Sherkatghanad, Z., Abdar, M., Charlier, J. and Makarenkov, V., Using Traditional Machine Learning and Deep Learning Methods for On-and Off-Target Prediction in CRISPR/Cas9: A Review.
+Sherkatghanad, Z., Abdar, M., Charlier, J. and Makarenkov, V., Using Traditional Machine Learning and Deep Learning Methods for On-and Off-Target Prediction in CRISPR/Cas9: A Review, submitted (2023).
 
 ------
 
