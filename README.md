@@ -21,6 +21,7 @@ Data Set 2 is a bunch data set (for more information, refer to [sklearn.utils.Bu
 Data Set 2 is encoded using the one-hot encoding technique introduced by Charlier et al. [18].  <br>
 
 ´´´ python
+import pickle as pkl
 ´´´
 
 ------
