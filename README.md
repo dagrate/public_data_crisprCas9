@@ -6,7 +6,7 @@ CRISPR/Cas9 benchmark data sets used for on- and off-target prediction, availabl
 
 ## Data Ready for Machine Learning and Deep Learning Experiences
 
-In this section, we provide data sets ready to use for machine learning and deep learning experiments, without the need of data preprocessing. 
+In this section, we provide data sets ready for use in machine learning and deep learning experiments, without the need of data preprocessing. 
 
 | Data Designation | Original Data Sets | Encoded Matrix Size | Data Link 
 |:---:|:---:|:---:|:---:|
