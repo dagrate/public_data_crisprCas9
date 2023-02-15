@@ -10,15 +10,15 @@ In this section, we provide encoded data sets ready for use in machine learning 
 
 | Data Designation | Original Data Sets | Encoded Matrix Size | Data Link 
 |:---:|:---:|:---:|:---:|
-| Data Set 1 | CIRCLE-Seq by Tasi et al. [30], <br> GUIDE-Seq I by Listgarten et al. [31], <br> Protein knockout detection by Doench et al. [32], <br> PCR, Digenome-Seq and HTGTS by Haeussler et al. [33], <br> SITE-Seq by Cameron et al. [34],<br> GUIDE-Seq by Tasi et al. [35],<br> GUIDE-Seq by Kleinstiver et al. [36],<br> GUIDE-Seq II by Listgarten et al. [37] | 7x23 <br> (Lin et al. 2020 [17]) | [Direct Link for Download (2.0 GB)](http://bio.info.uqam.ca/data/encoded_data_for_experiments.pkl)
-| Data Set 2 | CRISPR-Cas9 by Lin and Wong 2018 [40], <br> GUIDE-Seq by Tsai et al. 2015 [41] | 8x23 <br> (Charlier et al. 2021 [18]) | [Direct Link for Download (37.4 MB)](http://bio.info.uqam.ca/data/encoded_data_charlier_et_al.pkl)
+| Data Set 1 | CIRCLE-Seq by Tasi et al. [1], <br> GUIDE-Seq I by Listgarten et al. [2], <br> Protein knockout detection by Doench et al. [3], <br> PCR, Digenome-Seq and HTGTS by Haeussler et al. [4], <br> SITE-Seq by Cameron et al. [5],<br> GUIDE-Seq by Tasi et al. [6],<br> GUIDE-Seq by Kleinstiver et al. [7],<br> GUIDE-Seq II by Listgarten et al. [2] | 7x23 <br> (Lin et al. 2020 [8]) | [Direct Link for Download (2.0 GB)](http://bio.info.uqam.ca/data/encoded_data_for_experiments.pkl)
+| Data Set 2 | CRISPR-Cas9 by Lin and Wong 2018 [9], <br> GUIDE-Seq by Tsai et al. 2015 [6] | 8x23 <br> (Charlier et al. 2021 [10]) | [Direct Link for Download (37.4 MB)](http://bio.info.uqam.ca/data/encoded_data_charlier_et_al.pkl)
 
 
-Data Set 1 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing 7 different data sets, presented in Table 1 of Lin et al. [17]. A brief description of the bunch data set is available on [this GitHub page](https://github.com/dagrate/transferlearning-bioinfo). 
-Data Set 1 is encoded using the one-hot encoding technique introduced by Lin et al. [17].  <br>
+Data Set 1 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing 7 different data sets, presented in Table 1 of Lin et al. [8]. A brief description of the bunch data set is available on [this GitHub page](https://github.com/dagrate/transferlearning-bioinfo). 
+Data Set 1 is encoded using the one-hot encoding technique introduced by Lin et al. [8].  <br>
 
-Data Set 2 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing both CRISPR and Guide-Seq data sets used in Charlier et al. [18].
-Data Set 2 is encoded using the one-hot encoding technique introduced by Charlier et al. [18].  <br>
+Data Set 2 is a bunch data set (for more information, refer to [sklearn.utils.Bunch](https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html)) containing both CRISPR and Guide-Seq data sets used in Charlier et al. [10].
+Data Set 2 is encoded using the one-hot encoding technique introduced by Charlier et al. [10].  <br>
 
 ```python
 # how to read the encoded Bunch data files
@@ -38,12 +38,12 @@ Data sets containing only off-targets activities.
 
 Source | Year | Data description | Target | Original data source & Curated Data |
 |:---:|:---:|:---:|:---:|:---:|
-| GUIDE-seq data [4] | 2015 | CRISPR RNA-guided nucleases (RGNs) from two human cell lines: U2OS and HEK293; different sites such as VEGFA sites 1, 2 and 3, and HEK293 sites 2, 3 and 4 were studied | Off-targets | Original Data Source: <br> [Direct Link](https://github.com/tsailabSJ/guideseq/tree/master) |
-| CIRCLE-Seq data [8] | 2017 | Contains mismatch, insertion, and deletion information, and includes sgRNA-DNA pairs from 10 guide sequences, 7,371 of which are off-targets (430 with bulges) | Off-targets | [Direct Link](https://github.com/tsailabSJ/circleseq) |
-|SITE-Seq [9] | 2017 | gRNA-DNA pairs from nine guide sequences, 3,767 of which are active off-targets (no bulges) | Off-targets | Original Data Source: <br> [Direct Link](https://www.nature.com/articles/nmeth.4284) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/site_seq) |
-| CHANGE-seq data [12] | 2020 | 110 sgRNA targets across 13 therapeutically relevant loci in human primary T-cells were studied to identify 201,934 off-target sites across the human genome | Off-targets | Original Data Source: <br> [Direct Link](https://github.com/tsailabSJ/changeseq)  <br><br> Direct Link for Data Download: <br> [NBCI GEO Link](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149295) |
-| Listgarten elevation hmg data [14] | 2018 | 10,129 human exome targets pre-computed | Off-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6037314/) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/listgarten_elevation_hmg) |
-| Kleinstiver 5gRNA data [15] | 2015 | GUIDE-Seq pre-computed | Off-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540238/pdf/nihms696684.pdf) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/kleinstiver2015) |
+| GUIDE-seq data [6] | 2015 | CRISPR RNA-guided nucleases (RGNs) from two human cell lines: U2OS and HEK293; different sites such as VEGFA sites 1, 2 and 3, and HEK293 sites 2, 3 and 4 were studied | Off-targets | Original Data Source: <br> [Direct Link](https://github.com/tsailabSJ/guideseq/tree/master) |
+| CIRCLE-Seq data [1] | 2017 | Contains mismatch, insertion, and deletion information, and includes sgRNA-DNA pairs from 10 guide sequences, 7,371 of which are off-targets (430 with bulges) | Off-targets | [Direct Link](https://github.com/tsailabSJ/circleseq) |
+|SITE-Seq [5] | 2017 | gRNA-DNA pairs from nine guide sequences, 3,767 of which are active off-targets (no bulges) | Off-targets | Original Data Source: <br> [Direct Link](https://www.nature.com/articles/nmeth.4284) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/site_seq) |
+| CHANGE-seq data [11] | 2020 | 110 sgRNA targets across 13 therapeutically relevant loci in human primary T-cells were studied to identify 201,934 off-target sites across the human genome | Off-targets | Original Data Source: <br> [Direct Link](https://github.com/tsailabSJ/changeseq)  <br><br> Direct Link for Data Download: <br> [NBCI GEO Link](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149295) |
+| Listgarten elevation hmg data [2] | 2018 | 10,129 human exome targets pre-computed | Off-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6037314/) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/listgarten_elevation_hmg) |
+| Kleinstiver 5gRNA data [12] | 2015 | GUIDE-Seq pre-computed | Off-targets | Original Data Source: <br> [Direct Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540238/pdf/nihms696684.pdf) <br><br> Direct Link for Data Download: <br> [Github Link](https://github.com/dagrate/public_data_crisprCas9/tree/main/data/kleinstiver2015) |
 
 
 ### On-Targets Data Sets Description
@@ -82,76 +82,23 @@ Sherkatghanad, Z., Abdar, M., Charlier, J. and Makarenkov, V., Using Traditional
 ------
 
 ## References 
-
-[1]:
-Wang, T., Wei, J.J., Sabatini, D.M. and Lander, E.S., 2014. Genetic screens in human cells using the CRISPR-Cas9 system. Science, 343(6166), pp.80-84.
-
-[2]:
-Koike-Yusa, H., Li, Y., Tan, E.P., Velasco-Herrera, M.D.C. and Yusa, K., 2014. Genome-wide recessive genetic screening in mammalian cells with a lentiviral CRISPR-guide RNA library. Nature biotechnology, 32(3), pp.267-273.
-
-[3]:
-Doench, J.G., Hartenian, E., Graham, D.B., Tothova, Z., Hegde, M., Smith, I., Sullender, M., Ebert, B.L., Xavier, R.J. and Root, D.E., 2014. Rational design of highly active sgRNAs for CRISPR-Cas9–mediated gene inactivation. Nature biotechnology, 32(12), pp.1262-1267.
-
-[4]:
-Tsai, S.Q., Zheng, Z., Nguyen, N.T., Liebers, M., Topkar, V.V., Thapar, V., Wyvekens, N., Khayter, C., Iafrate, A.J., Le, L.P. and Aryee, M.J., 2015. GUIDE-seq enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases. Nature biotechnology, 33(2), pp.187-197.
-
-[5]:
-Doench, J.G., Fusi, N., Sullender, M., Hegde, M., Vaimberg, E.W., Donovan, K.F., Smith, I., Tothova, Z., Wilen, C., Orchard, R. and Virgin, H.W., 2016. Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9. Nature biotechnology, 34(2), pp.184-191.
-
-[6]:
-Haeussler, M., Schönig, K., Eckert, H., Eschstruth, A., Mianné, J., Renaud, J.B., Schneider-Maunoury, S., Shkumatava, A., Teboul, L., Kent, J. and Joly, J.S., 2016. Evaluation of off-target and on-target scoring algorithms and integration into the guide RNA selection tool CRISPOR. Genome biology, 17(1), pp.1-12.
-
-[7]:
-Rauscher, B., Heigwer, F., Breinig, M., Winter, J. and Boutros, M., 2016. GenomeCRISPR-a database for high-throughput CRISPR/Cas9 screens. Nucleic acids research, p.gkw997.
-
-[8]:
-Tsai, S.Q., Nguyen, N.T., Malagon-Lopez, J., Topkar, V.V., Aryee, M.J. and Joung, J.K., 2017. CIRCLE-seq: a highly sensitive in vitro screen for genome-wide CRISPR–Cas9 nuclease off-targets. Nature methods, 14(6), pp.607-614.
-
-[9]:
-Cameron, P., Fuller, C.K., Donohoue, P.D., Jones, B.N., Thompson, M.S., Carter, M.M., Gradia, S., Vidal, B., Garner, E., Slorach, E.M. and Lau, E., 2017. Mapping the genomic landscape of CRISPR–Cas9 cleavage. Nature methods, 14(6), pp.600-606.
-
-[10]:
-Chuai, G., Ma, H., Yan, J., Chen, M., Hong, N., Xue, D., Zhou, C., Zhu, C., Chen, K., Duan, B. and Gu, F., 2018. DeepCRISPR: optimized CRISPR guide RNA design by deep learning. Genome biology, 19(1), pp.1-18.
-
-[11]:
-Wang, D., Zhang, C., Wang, B., Li, B., Wang, Q., Liu, D., Wang, H., Zhou, Y., Shi, L., Lan, F. and Wang, Y., 2019. Optimized CRISPR guide RNA design for two high-fidelity Cas9 variants by deep learning. Nature communications, 10(1), pp.1-14.
-
-[12]:
-Lazzarotto, C.R., Malinin, N.L., Li, Y., Zhang, R., Yang, Y., Lee, G., Cowley, E., He, Y., Lan, X., Jividen, K. and Katta, V., 2020. CHANGE-seq reveals genetic and epigenetic effects on CRISPR–Cas9 genome-wide activity. Nature biotechnology, 38(11), pp.1317-1327.
-
-[13]:
-Xiang, X., Corsi, G.I., Anthon, C., Qu, K., Pan, X., Liang, X., Han, P., Dong, Z., Liu, L., Zhong, J. and Ma, T., 2021. Enhancing CRISPR-Cas9 gRNA efficiency prediction by data integration and deep learning. Nature communications, 12(1), pp.1-9.
-
-[14]:
-Listgarten, J., Weinstein, M., Kleinstiver, B.P., Sousa, A.A., Joung, J.K., Crawford, J., Gao, K., Hoang, L., Elibol, M., Doench, J.G. and Fusi, N., 2018. Prediction of off-target activities for the end-to-end design of CRISPR guide RNAs. Nature biomedical engineering, 2(1), pp.38-47.
-
-[15]:
-Kleinstiver, B.P., Prew, M.S., Tsai, S.Q., Topkar, V.V., Nguyen, N.T., Zheng, Z., Gonzales, A.P., Li, Z., Peterson, R.T., Yeh, J.R.J. and Aryee, M.J., 2015. Engineered CRISPR-Cas9 nucleases with altered PAM specificities. Nature, 523(7561), pp.481-485.
-
-[16]:
-Kim, H. K., Kim, Y., Lee, S., Min, S., Bae, J. Y., Choi, J. W., ... & Kim, H. H. (2019). SpCas9 activity prediction by DeepSpCas9, a deep learning–based model with high generalization performance. Science advances, 5(11), eaax9249.
-
-[17]:
-Lin, J., Zhang, Z., Zhang, S., Chen, J. and Wong, K.C., 2020. CRISPR‐Net: A Recurrent Convolutional Network Quantifies CRISPR Off‐Target Activities with Mismatches and Indels. Advanced science, 7(13), p.1903562.
-
-[18]:
-Charlier J, Nadon R, Makarenkov V. Accurate deep learning off-target prediction with novel sgRNA-DNA sequence encoding in CRISPR-Cas9 gene editing. Bioinformatics. 2021 Aug 15;37(16):2299-307.
-
-[30]:
-Tsai, S.Q., Nguyen, N.T., Malagon-Lopez, J., Topkar, V.V., Aryee, M.J. and Joung, J.K., 2017. CIRCLE-seq: a highly sensitive in vitro screen for genome-wide CRISPR–Cas9 nuclease off-targets. Nature methods, 14(6), pp.607-614.
-
-[31]:
-Listgarten, J., Weinstein, M., Kleinstiver, B.P., Sousa, A.A., Joung, J.K., Crawford, J., Gao, K., Hoang, L., Elibol, M., Doench, J.G. and Fusi, N., 2018. Prediction of off-target activities for the end-to-end design of CRISPR guide RNAs. Nature biomedical engineering, 2(1), pp.38-47.
-
-[32]: Doench, J.G., Fusi, N., Sullender, M., Hegde, M., Vaimberg, E.W., Donovan, K.F., Smith, I., Tothova, Z., Wilen, C., Orchard, R. and Virgin, H.W., 2016. Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9. Nature biotechnology, 34(2), pp.184-191.
-[33]: Haeussler, M., Schönig, K., Eckert, H., Eschstruth, A., Mianné, J., Renaud, J.B., Schneider-Maunoury, S., Shkumatava, A., Teboul, L., Kent, J. and Joly, J.S., 2016. Evaluation of off-target and on-target scoring algorithms and integration into the guide RNA selection tool CRISPOR. Genome biology, 17, pp.1-12.
-[34]: Cameron, P., Fuller, C.K., Donohoue, P.D., Jones, B.N., Thompson, M.S., Carter, M.M., Gradia, S., Vidal, B., Garner, E., Slorach, E.M. and Lau, E., 2017. Mapping the genomic landscape of CRISPR–Cas9 cleavage. Nature methods, 14(6), pp.600-606.
-[35]: Tsai, S.Q., Zheng, Z., Nguyen, N.T., Liebers, M., Topkar, V.V., Thapar, V., Wyvekens, N., Khayter, C., Iafrate, A.J., Le, L.P. and Aryee, M.J., 2015. GUIDE-seq enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases. Nature biotechnology, 33(2), pp.187-197.
-[36]: Kleinstiver, B.P., Pattanayak, V., Prew, M.S., Tsai, S.Q., Nguyen, N.T., Zheng, Z. and Joung, J.K., 2016. High-fidelity CRISPR–Cas9 nucleases with no detectable genome-wide off-target effects. Nature, 529(7587), pp.490-495.
-[37]: Listgarten, J., Weinstein, M., Kleinstiver, B.P., Sousa, A.A., Joung, J.K., Crawford, J., Gao, K., Hoang, L., Elibol, M., Doench, J.G. and Fusi, N., 2018. Prediction of off-target activities for the end-to-end design of CRISPR guide RNAs. Nature biomedical engineering, 2(1), pp.38-47.
-
-[40]:
-Lin, J. and Wong, K.C., 2018. Off-target predictions in CRISPR-Cas9 gene editing using deep learning. Bioinformatics, 34(17), pp.i656-i663.
-
-[41]:
-Tsai,S.Q. et al. (2015) Guide-seq enables genome-wide profiling of off-target cleavage by crispr-cas nucleases. Nat. Biotechnol., 33, 187–197.
+[101-30-8]: Tsai, S.Q., Nguyen, N.T., Malagon-Lopez, J., Topkar, V.V., Aryee, M.J. and Joung, J.K., 2017. CIRCLE-seq: a highly sensitive in vitro screen for genome-wide CRISPR–Cas9 nuclease off-targets. Nature methods, 14(6), pp.607-614.
+[102-31-37-14]: Listgarten, J., Weinstein, M., Kleinstiver, B.P., Sousa, A.A., Joung, J.K., Crawford, J., Gao, K., Hoang, L., Elibol, M., Doench, J.G. and Fusi, N., 2018. Prediction of off-target activities for the end-to-end design of CRISPR guide RNAs. Nature biomedical engineering, 2(1), pp.38-47.
+[103-32-5]: Doench, J.G., Fusi, N., Sullender, M., Hegde, M., Vaimberg, E.W., Donovan, K.F., Smith, I., Tothova, Z., Wilen, C., Orchard, R. and Virgin, H.W., 2016. Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9. Nature biotechnology, 34(2), pp.184-191.
+[104-33-6]: Haeussler, M., Schönig, K., Eckert, H., Eschstruth, A., Mianné, J., Renaud, J.B., Schneider-Maunoury, S., Shkumatava, A., Teboul, L., Kent, J. and Joly, J.S., 2016. Evaluation of off-target and on-target scoring algorithms and integration into the guide RNA selection tool CRISPOR. Genome biology, 17, pp.1-12.
+[105-34-9]: Cameron, P., Fuller, C.K., Donohoue, P.D., Jones, B.N., Thompson, M.S., Carter, M.M., Gradia, S., Vidal, B., Garner, E., Slorach, E.M. and Lau, E., 2017. Mapping the genomic landscape of CRISPR–Cas9 cleavage. Nature methods, 14(6), pp.600-606.
+[106-35-41-4]: Tsai, S.Q., Zheng, Z., Nguyen, N.T., Liebers, M., Topkar, V.V., Thapar, V., Wyvekens, N., Khayter, C., Iafrate, A.J., Le, L.P. and Aryee, M.J., 2015. GUIDE-seq enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases. Nature biotechnology, 33(2), pp.187-197.
+[107-36]: Kleinstiver, B.P., Pattanayak, V., Prew, M.S., Tsai, S.Q., Nguyen, N.T., Zheng, Z. and Joung, J.K., 2016. High-fidelity CRISPR–Cas9 nucleases with no detectable genome-wide off-target effects. Nature, 529(7587), pp.490-495.
+[108-17]: Lin, J., Zhang, Z., Zhang, S., Chen, J. and Wong, K.C., 2020. CRISPR‐Net: A Recurrent Convolutional Network Quantifies CRISPR Off‐Target Activities with Mismatches and Indels. Advanced science, 7(13), p.1903562.
+[109-40]: Lin, J. and Wong, K.C., 2018. Off-target predictions in CRISPR-Cas9 gene editing using deep learning. Bioinformatics, 34(17), pp.i656-i663.
+[110-18]: Charlier J, Nadon R, Makarenkov V. Accurate deep learning off-target prediction with novel sgRNA-DNA sequence encoding in CRISPR-Cas9 gene editing. Bioinformatics. 2021 Aug 15;37(16):2299-307.
+[111-12]: Lazzarotto, C.R., Malinin, N.L., Li, Y., Zhang, R., Yang, Y., Lee, G., Cowley, E., He, Y., Lan, X., Jividen, K. and Katta, V., 2020. CHANGE-seq reveals genetic and epigenetic effects on CRISPR–Cas9 genome-wide activity. Nature biotechnology, 38(11), pp.1317-1327.
+[112-15]: Kleinstiver, B.P., Prew, M.S., Tsai, S.Q., Topkar, V.V., Nguyen, N.T., Zheng, Z., Gonzales, A.P., Li, Z., Peterson, R.T., Yeh, J.R.J. and Aryee, M.J., 2015. Engineered CRISPR-Cas9 nucleases with altered PAM specificities. Nature, 523(7561), pp.481-485.
+[113-1]: Wang, T., Wei, J.J., Sabatini, D.M. and Lander, E.S., 2014. Genetic screens in human cells using the CRISPR-Cas9 system. Science, 343(6166), pp.80-84.
+[114-2]: Koike-Yusa, H., Li, Y., Tan, E.P., Velasco-Herrera, M.D.C. and Yusa, K., 2014. Genome-wide recessive genetic screening in mammalian cells with a lentiviral CRISPR-guide RNA library. Nature biotechnology, 32(3), pp.267-273.
+[115-3]: Doench, J.G., Hartenian, E., Graham, D.B., Tothova, Z., Hegde, M., Smith, I., Sullender, M., Ebert, B.L., Xavier, R.J. and Root, D.E., 2014. Rational design of highly active sgRNAs for CRISPR-Cas9–mediated gene inactivation. Nature biotechnology, 32(12), pp.1262-1267.
+[116-7]: Rauscher, B., Heigwer, F., Breinig, M., Winter, J. and Boutros, M., 2016. GenomeCRISPR-a database for high-throughput CRISPR/Cas9 screens. Nucleic acids research, p.gkw997.
+[117-11]: Wang, D., Zhang, C., Wang, B., Li, B., Wang, Q., Liu, D., Wang, H., Zhou, Y., Shi, L., Lan, F. and Wang, Y., 2019. Optimized CRISPR guide RNA design for two high-fidelity Cas9 variants by deep learning. Nature communications, 10(1), pp.1-14.
+[118-16]: Kim, H. K., Kim, Y., Lee, S., Min, S., Bae, J. Y., Choi, J. W., ... & Kim, H. H. (2019). SpCas9 activity prediction by DeepSpCas9, a deep learning–based model with high generalization performance. Science advances, 5(11), eaax9249.
+[119-17]: Hiranniramol, K., Chen, Y., Liu, W. and Wang, X., 2020. Generalizable sgRNA design for improved CRISPR/Cas9 editing efficiency. Bioinformatics, 36(9), pp.2684-2689.
+[120-10]: Chuai, G., Ma, H., Yan, J., Chen, M., Hong, N., Xue, D., Zhou, C., Zhu, C., Chen, K., Duan, B. and Gu, F., 2018. DeepCRISPR: optimized CRISPR guide RNA design by deep learning. Genome biology, 19(1), pp.1-18.
