@@ -27,7 +27,7 @@ with open('data_set_i.pkl', 'rb') as f: # change data_set_i by the name of your 
   data = pickle.load(f)
 print(data)
 ```
-Using the above code, the variable data contains the encoded matrices and the binary targets (0 for non-validated off-targets and 1 for validated off-targets). For more information on how to process the Bunch data sets, we invite the reader to check the [demo notebook file](https://github.com/dagrate/public_data_crisprCas9/blob/main/a_demo_of_a_simple_classification_model.ipynb).
+Using the code above, the user can get access to one hot-encoded sgRNA-DNA sequence data (encoded as binary matrices) and to the positive/negative sample information (0 for non-validated off-targets and 1 for validated off-targets). For more information on how to process the Bunch data sets, we invite the reader to check the [demo notebook file](https://github.com/dagrate/public_data_crisprCas9/blob/main/a_demo_of_a_simple_classification_model.ipynb).
 
 ### Tutorial for Machine Learning and Deep Learning Experiences
 
